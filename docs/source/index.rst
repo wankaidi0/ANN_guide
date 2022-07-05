@@ -1,11 +1,18 @@
 利用人工智能方法预测航空燃料与氢气的混合燃烧特性
 ===============================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-测试中文
+课题背景分析及研究现状
+*********************
+
+面向我国力争2030年实现碳排放达峰的国家重大需求，本课题拟通过计算机模拟手段开展航空燃料与氢气混合燃烧过程的相关研究工作。氢气具有可再生、高热值、零碳排放等优点，通过将传统燃料与氢气混合能够显著降低燃料燃烧过程的碳排放。截至目前，国内外对于氢气混合燃料的研究主要集中于汽油、天然气和醇类等，而对于航空燃料与氢气混合的研究较少。本课题拟利用先进的人工智能方法对航空燃料与氢气的混合燃烧特性展开仿真模拟研究。
+
+预期效果与具体成果
+*****************
+
+#、	理解人工智能和机器学习的基础知识；
+#、	掌握文献检索、资料查询的基本方法；
+#、	完成课题的部分计算机编程任务，具备初级的科学研究能力；
+#、	与导师合作完成科研论文或研究报告。
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
