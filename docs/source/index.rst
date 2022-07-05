@@ -14,6 +14,14 @@
 #.	完成课题的部分计算机编程任务，具备初级的科学研究能力；
 #.	与导师合作完成科研论文或研究报告。
 
+研究步骤
+*******
+
+#. 利用Cantera软件计算航空煤油掺混氢气的一维预混火焰，得到层流火焰速度；
+#. 建立不同初始温度、压力等不同工况下混合燃料的层流火焰速度数据库；
+#. 基于TensorFlow软件建立一个包括若干层神经元的人工神经网络；
+#. 利用建立的数据库训练人工神经网络根据输入的温度、压力参数来预测混合燃料的层流火焰速度。
+
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
