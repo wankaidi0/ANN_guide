@@ -22,9 +22,6 @@
 #. 基于TensorFlow软件建立一个包括若干层神经元的人工神经网络；
 #. 利用建立的数据库训练人工神经网络根据输入的温度、压力参数来预测混合燃料的层流火焰速度。
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
 .. note::
 
    This project is under active development.
@@ -34,5 +31,6 @@ Contents
 
 .. toctree::
 
+   proposal
    usage
    api
