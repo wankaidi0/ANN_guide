@@ -14,9 +14,6 @@
 #.	完成课题的部分计算机编程任务，具备初级的科学研究能力；
 #.	与导师合作完成科研论文或研究报告。
 
-test
-****
-
 .. note::
 
    This project is under active development.
