@@ -32,5 +32,5 @@ Contents
 .. toctree::
 
    proposal
-   usage
+   cantera
    api
