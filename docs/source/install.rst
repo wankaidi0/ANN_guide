@@ -21,7 +21,7 @@
 打开后点击 **Configure Conda** ：
 
 .. image:: images/channel_config_2.png
-  :width: 800
+  :width: 600
   
 将原先的默认设置删除，然后复制下面的设置文本粘贴上去，这里我们采用了上海交通大学的服务器：
 
@@ -43,7 +43,7 @@
 点击 **Save and Restart** 完成服务器的设置：
 
 .. image:: images/channel_config_3.png
-  :width: 800
+  :width: 640
 
 
 安装Cantera
