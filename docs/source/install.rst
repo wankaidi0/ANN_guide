@@ -10,3 +10,13 @@
 
 `点此链接下载 <https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe>`_ 并安装Anaconda。
 
+设置Anaconda
+*************
+
+安装后在开始菜单找到Anaconda Navigator打开。
+
+安装Cantera
+************
+
+安装Tensorflow
+***************
