@@ -10,40 +10,16 @@
 
 `点此链接下载 <https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe>`_ 并安装Anaconda。
 
-设置Anaconda
-************
-
-安装后在开始菜单找到Anaconda Navigator打开。首先，我们把软件的服务器地址改成国内的，这样后面连接下载程序包的速度更快。左上角点击 **File => Preferences** 打开软件设置界面：
-
-.. image:: images/channel_config_1.png
-
-打开后点击 **Configure Conda** ：
-
-.. image:: images/channel_config_2.png
-  
-将原先的默认设置删除，然后复制下面的设置文本粘贴上去，这里我们采用了上海交通大学的服务器：
-
-.. code-block::
-
-  default_channels:
-    - https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/r
-    - https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/main
-  
-  custom_channels:
-    conda-forge: https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/
-    pytorch: https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/
-  
-  channels:
-    - defaults
-  
-  show_channel_urls: true
-
-点击 **Save and Restart** 完成服务器的设置：
-
-.. image:: images/channel_config_3.png
-
 安装Cantera
 ***********
+
+`Cantera <https://cantera.org/>`_ 是一个开源化学动力学软件，我们可以用它来模拟包括燃烧在内的化学反应过程。Anaconda软件默认没有提供Cantera的安装源，因此首先我们需要添加Cantera的安装源。
+
+在开始菜单找到Anaconda Navigator打开，左侧边栏点击 **Environments** => **Channels** 按钮，在弹出的对话框中点击 **Add...** ，输入 **cantera** 后 **按回车键**，最后点击 **Update channels** 完成添加。
+
+.. image:: images/cantera-1.png
+
+
 
 安装Tensorflow
 **************
