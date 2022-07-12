@@ -13,7 +13,38 @@
 设置Anaconda
 *************
 
-安装后在开始菜单找到Anaconda Navigator打开。
+安装后在开始菜单找到Anaconda Navigator打开。首先，我们把软件的服务器地址改成国内的，这样后面连接下载程序包的速度更快。左上角点击 **File => Preferences** 打开软件设置界面：
+
+.. image:: images/channel.png
+  :width: 600
+
+打开后点击 **Configure Conda** ：
+
+.. image:: images/channel.png
+  :width: 600
+  
+将原先的默认设置删除，然后复制下面的设置文本粘贴上去，这里我们采用了上海交通大学的服务器：
+
+.. code-block::
+
+  default_channels:
+    - https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/r
+    - https://anaconda.mirrors.sjtug.sjtu.edu.cn/pkgs/main
+  
+  custom_channels:
+    conda-forge: https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/
+    pytorch: https://anaconda.mirrors.sjtug.sjtu.edu.cn/cloud/
+  
+  channels:
+    - defaults
+  
+  show_channel_urls: true
+
+点击 **Save and Restart** 完成服务器的设置：
+
+.. image:: images/channel.png
+  :width: 600
+
 
 安装Cantera
 ************
