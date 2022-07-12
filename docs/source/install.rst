@@ -42,7 +42,6 @@
 
 .. image:: images/channel_config_3.png
 
-
 安装Cantera
 ***********
 
