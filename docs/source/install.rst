@@ -11,7 +11,7 @@
 `点此链接下载 <https://repo.anaconda.com/archive/Anaconda3-2022.05-Windows-x86_64.exe>`_ 并安装Anaconda。
 
 设置Anaconda
-*************
+************
 
 安装后在开始菜单找到Anaconda Navigator打开。首先，我们把软件的服务器地址改成国内的，这样后面连接下载程序包的速度更快。左上角点击 **File => Preferences** 打开软件设置界面：
 
@@ -44,7 +44,7 @@
 
 
 安装Cantera
-************
+***********
 
 安装Tensorflow
-***************
+**************
