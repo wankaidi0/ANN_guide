@@ -24,3 +24,4 @@ Contents
 .. toctree::
 
    proposal
+   install
