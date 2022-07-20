@@ -25,3 +25,5 @@ Contents
 
    proposal
    install
+   cantera
+   tensorflow
