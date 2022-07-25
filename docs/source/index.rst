@@ -27,3 +27,4 @@ Contents
    install
    cantera
    tensorflow
+   flame
