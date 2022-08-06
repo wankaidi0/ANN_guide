@@ -50,7 +50,7 @@
 
 `TensorFlow <https://www.tensorflow.org/?hl=zh-cn>`_ 是Google开发的一个开源软件库，用于各种感知和语言理解任务的机器学习。Anaconda软件默认提供了TensorFlow的安装源，因此直接搜索安装即可。
 
-搜索框中输入tensorflow，在下方出现的tensorflow软件包左侧打钩，然后点击右下角的 **Apply** 按钮。
+搜索框中输入tensorflow，在下方出现的 **keras** 和 **tensorflow** 软件包左侧打钩，然后点击右下角的 **Apply** 按钮。
 
 .. image:: images/install-tensorflow-1.png
 
@@ -86,8 +86,9 @@
 	print(ct.__version__)
 	import tensorflow as tf
 	print(tf.__version__)
+	print(tf.keras.__version__)
 
-输入完成后，点击上方的小箭头运行。如果能够正常输出Cantera和TensorFlow的版本号，则说明安装成功。
+输入完成后，点击上方的小箭头运行。如果能够正常输出Cantera、TensorFlow和Keras的版本号，则说明安装成功。
 
 .. image:: images/test-jupyterlab-3.png
 
